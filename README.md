@@ -26,13 +26,6 @@ Go to the link `127.0.0.1:5000/name` and your document should pop up.
 
 If you want to add a styling sheet, instead of putting the direct path (i.e. `static/css/stylesheet.css`), use `{{url_for('static', 'css/stylesheet.css')}}` instead.
 
-Currently working pages:
-1. `127.0.0.1:5000/comments`
-2. `127.0.0.1:5000/register`
-3. `127.0.0.1:5000/login`
-
-Lastly, if you have any other questions about some implementation or something else, either email me at *1jiangjer3@hdsb.ca* or add me on discord (paidvbux_).
-
 # How to GitHub
 
 ## Using GitHub:
@@ -72,4 +65,3 @@ Lastly, if you have any other questions about some implementation or something e
 4. On the right side there should be either `Recommended` or `Global`. Click on the one that isn’t currently selected.
 5. Close and reopen vs code.
 6. Run it.
-7. If it still doesn’t work email me at [1jiangjer3@hdsb.ca](mailto:1jiangjer3@hdsb.ca) or just text me if you have my number.
