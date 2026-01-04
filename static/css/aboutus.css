@@ -537,5 +537,15 @@ body, html {
 
 */
 
+#desctext{
+    max-width: 42ch;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: 1.5;
+    text-wrap: balance;
+}
+
 
 
