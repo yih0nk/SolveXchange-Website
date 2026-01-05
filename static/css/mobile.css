@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+
+  .center,
+  .split,
+  .spread {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-box {
+    width: 100%;
+    max-width: 100%;
+    padding: 1rem;
+    text-align: center;
+  }
+}
