@@ -384,8 +384,8 @@ button > span {
     font-size:calc(var(--adjustment)*22px);
 
     font-weight: 350;
-    line-height: 50x;
-    margin-top: -15px;
+    line-height: 50px;
+    
 }
 
 .third-wrapper{
