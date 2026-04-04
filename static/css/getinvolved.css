@@ -122,8 +122,24 @@
 }
 
 
+#top-wrapper2{
+    color: black;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    margin-top: 60px;
+    background-color: rgb(217, 238, 253);
+    width: 100%;
+}
+
+
 .divider{
 
+    position:relative;
+    width:100%;
+}
+
+.dividerSponsorship{
     position:relative;
     width:100%;
 }
@@ -158,6 +174,16 @@
     z-index:103;
 }
 
+.dividerSponsorship2{
+    clip-path: polygon(0% 30%, 50% 100%, 100% 30%, 100% 100%, 50% 100%, 0% 100%);
+    background: rgb(217, 238, 253);
+    height:100px;
+    position:absolute;
+    width:100%;
+    top:0px;
+    z-index:100;
+}
+
 
 #top-title{
     font-weight:800;
@@ -167,6 +193,10 @@
 }
 
 #top-title-div{
+    padding-top: 135px;
+}
+
+#top-title-div2{
     padding-top: 135px;
 }
 
@@ -190,13 +220,56 @@
     height: 1200px;
 }
 
+#second-wrapper2{
+    color: black;
+    position: relative;
+    margin-top: 80px;
+    background-color: rgb(217, 238, 253);
+    width: 100%;
+    display:flex;
+/*     justify-content:space-between; */
+    margin-top: 5%;
+    height: 300px;
+}
+
+#second-wrapper3{    
+    color: black;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    margin-top: 0px;
+    background-color: rgb(217, 238, 253);
+    width: 100%;
+}
+
 #second-wrapper-left{
     margin-top:80px;
     margin-left:100px;
     margin-right:50px;
 }
 
+#second-wrapper-left2{
+    margin-top:40px;
+    margin-left:100px;
+    margin-right:50px;
+    align-items: center;
+}
+
+#second-wrapper-left3{
+    margin-top:40px;
+    margin-left:100px;
+    margin-right:50px;
+}
+
 #sponsor{
+    margin-top: 60px;
+}
+
+#sponsor2{
+    margin-top: 60px;
+}
+
+#sponsor3{
     margin-top: 60px;
 }
 
@@ -213,6 +286,12 @@
 .second-wrapper-subtitle{
     color: black;
     font-size:calc(var(--adjustment)*38px);
+    font-weight: 700;
+}
+
+.second-wrapper-subtitle2{
+    color: black;
+    font-size:calc(var(--adjustment)*48px);
     font-weight: 700;
 }
 
@@ -824,5 +903,10 @@ button > span {
         height:60px;
     }
 
+    .split-line{
+        height: 1px;
+        margin-top: 0px;
+        background-color: white;
+    }
 
 }
